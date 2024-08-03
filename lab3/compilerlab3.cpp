@@ -88,8 +88,8 @@ void calExpression(vector<Token> expr); // 调用，生成汇编
 
 
 int main(int argc, char* argv[]) {
-    //ifstream sourceFile(argv[1]);
-    ifstream sourceFile("D:\\desktop related\\current\\compiler\\1.txt");
+    ifstream sourceFile(argv[1]);
+    //ifstream sourceFile("D:\\desktop related\\current\\compiler\\1.txt");
 
     if (!sourceFile.is_open()) {
         cerr << "无法打开源文件。" << endl;
